@@ -33,39 +33,45 @@ export default function Index() {
 
   const products = [
     {
-      title: 'Полимерные трубы',
-      description: 'Высококачественные трубы для промышленных и строительных нужд',
-      specs: ['Диаметр от 16 до 630 мм', 'Давление до 25 атм', 'Срок службы до 50 лет'],
-      image: 'https://cdn.poehali.dev/projects/50cf6cb2-13c1-4e01-8ce6-26d660ea2525/files/b2642b8b-88e9-4c96-85b1-b349733e3613.jpg'
+      title: 'Лодки из ПНД',
+      description: 'Прочные и легкие лодки из полиэтилена низкого давления',
+      specs: ['Длина от 2 до 6 метров', 'Устойчивость к ударам', 'Не требуют покраски'],
+      image: 'https://cdn.poehali.dev/projects/50cf6cb2-13c1-4e01-8ce6-26d660ea2525/files/b4151789-e9f8-40f7-a41b-b53b87e77bfc.jpg'
     },
     {
-      title: 'Фитинги и комплектующие',
-      description: 'Широкий ассортимент соединительных элементов',
-      specs: ['Уголки, тройники, переходники', 'Все стандартные размеры', 'Быстрая поставка со склада'],
-      image: 'https://cdn.poehali.dev/projects/50cf6cb2-13c1-4e01-8ce6-26d660ea2525/files/c8073a6c-7cd0-466e-835c-4e75ded408c0.jpg'
+      title: 'Станции биологической очистки',
+      description: 'Современные системы очистки сточных вод',
+      specs: ['Производительность 3-25 м³/сутки', 'Степень очистки до 98%', 'Гарантия 10 лет'],
+      image: 'https://cdn.poehali.dev/projects/50cf6cb2-13c1-4e01-8ce6-26d660ea2525/files/2d191e0c-8282-4d25-96c6-efae5ebd2374.jpg'
     },
     {
-      title: 'Полимерные листы',
-      description: 'Листовые материалы различной толщины',
-      specs: ['Толщина 2-50 мм', 'Размеры под заказ', 'Различные цвета'],
-      image: 'https://cdn.poehali.dev/projects/50cf6cb2-13c1-4e01-8ce6-26d660ea2525/files/646b674a-2164-42fe-a366-9e84286749aa.jpg'
+      title: 'Бассейны',
+      description: 'Полимерные композитные бассейны под ключ',
+      specs: ['Объем от 5 до 50 м³', 'Быстрая установка', 'Долговечность 30+ лет'],
+      image: 'https://cdn.poehali.dev/projects/50cf6cb2-13c1-4e01-8ce6-26d660ea2525/files/bd3e6643-e0da-4ee3-b1d9-a5348c1d4d6b.jpg'
     },
     {
-      title: 'Емкости и резервуары',
-      description: 'Пластиковые емкости для хранения жидкостей',
-      specs: ['Объем от 100 до 10000 л', 'Устойчивость к химии', 'Гарантия 5 лет'],
-      image: 'https://cdn.poehali.dev/projects/50cf6cb2-13c1-4e01-8ce6-26d660ea2525/files/826078f2-11f2-478f-a68b-e338c7b08b0f.jpg'
+      title: 'Купели',
+      description: 'Купели для бань и саун из полимерных материалов',
+      specs: ['Различные размеры и формы', 'Устойчивость к температурам', 'Легкий монтаж'],
+      image: 'https://cdn.poehali.dev/projects/50cf6cb2-13c1-4e01-8ce6-26d660ea2525/files/06fe4f18-0051-4219-81fa-da1ab0f747e6.jpg'
     },
     {
-      title: 'Комплектующие для систем',
-      description: 'Элементы для монтажа трубопроводов',
-      specs: ['Крепления и хомуты', 'Уплотнители', 'Монтажные наборы'],
-      image: 'https://cdn.poehali.dev/projects/50cf6cb2-13c1-4e01-8ce6-26d660ea2525/files/c0500e63-e0d7-4d7a-9c72-2fe223a9c70d.jpg'
+      title: 'Погреба',
+      description: 'Пластиковые погреба для хранения овощей и заготовок',
+      specs: ['Объем от 1 до 10 м³', 'Герметичная конструкция', 'Готов к установке'],
+      image: 'https://cdn.poehali.dev/projects/50cf6cb2-13c1-4e01-8ce6-26d660ea2525/files/6987f02b-d6ea-4924-b833-5eabfa93d11f.jpg'
     },
     {
-      title: 'Изделия по чертежам',
-      description: 'Производство нестандартных изделий',
-      specs: ['Работа по чертежам заказчика', 'Малые серии', 'Быстрые сроки изготовления'],
+      title: 'Сани из ПНД',
+      description: 'Прочные санки для перевозки грузов',
+      specs: ['Грузоподъемность до 300 кг', 'Морозостойкость', 'Различные размеры'],
+      image: 'https://cdn.poehali.dev/projects/50cf6cb2-13c1-4e01-8ce6-26d660ea2525/files/30c6738d-f521-4372-9b6a-38af4656580b.jpg'
+    },
+    {
+      title: 'Изделия по вашим чертежам',
+      description: 'Производство нестандартных изделий по индивидуальному заказу',
+      specs: ['Работа по чертежам заказчика', 'Малые и средние серии', 'Быстрые сроки изготовления'],
       image: 'https://cdn.poehali.dev/projects/50cf6cb2-13c1-4e01-8ce6-26d660ea2525/files/1d92ff91-aa23-4c07-8cb4-b28b6a23a63f.jpg'
     }
   ];
@@ -178,9 +184,17 @@ export default function Index() {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <CardContent className="p-6 space-y-2">
+                <CardContent className="p-6 space-y-3">
                   <h3 className="text-xl font-semibold">{product.title}</h3>
-                  <p className="text-muted-foreground">{product.description}</p>
+                  <p className="text-muted-foreground text-sm">{product.description}</p>
+                  <ul className="space-y-1">
+                    {product.specs.map((spec, i) => (
+                      <li key={i} className="text-sm text-muted-foreground flex items-start gap-2">
+                        <span className="text-primary mt-1">•</span>
+                        <span>{spec}</span>
+                      </li>
+                    ))}
+                  </ul>
                 </CardContent>
               </Card>
             ))}
