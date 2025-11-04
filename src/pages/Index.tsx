@@ -36,7 +36,7 @@ export default function Index() {
       title: 'Лодки из ПНД',
       description: 'Прочные и легкие лодки из полиэтилена низкого давления',
       specs: ['Длина от 2 до 6 метров', 'Устойчивость к ударам', 'Не требуют покраски'],
-      image: 'https://cdn.poehali.dev/projects/50cf6cb2-13c1-4e01-8ce6-26d660ea2525/files/b4151789-e9f8-40f7-a41b-b53b87e77bfc.jpg'
+      image: 'https://cdn.poehali.dev/files/6f7469b3-c705-4f3d-b400-f41509f45fc1.jpg'
     },
     {
       title: 'Станции биологической очистки',
