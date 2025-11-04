@@ -202,7 +202,142 @@ export default function Index() {
         </div>
       </section>
 
-      <section id="contacts" className="py-20 px-4 bg-secondary/30">
+      <section className="py-20 px-4 bg-secondary/30">
+        <div className="container mx-auto max-w-6xl">
+          <h2 className="text-4xl font-bold mb-12 text-center">Отзывы наших клиентов</h2>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+            <div className="aspect-square overflow-hidden rounded-lg shadow-lg">
+              <img 
+                src="https://cdn.poehali.dev/files/175e0185-a818-43bc-bc72-b947c6f113fb.jpg"
+                alt="Беседка на воде"
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div className="aspect-square overflow-hidden rounded-lg shadow-lg">
+              <img 
+                src="https://cdn.poehali.dev/files/a37457a9-3382-4811-8065-94850e2e5b9f.jpg"
+                alt="Бассейн"
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div className="aspect-square overflow-hidden rounded-lg shadow-lg">
+              <img 
+                src="https://cdn.poehali.dev/files/1b7a7b8e-42c4-42ee-85ae-e210472372e8.jpg"
+                alt="Бассейн с навесом"
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div className="aspect-square overflow-hidden rounded-lg shadow-lg">
+              <img 
+                src="https://cdn.poehali.dev/files/b622b2e3-411f-4bd3-a635-0ab9814252f6.jpg"
+                alt="Купель"
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <Card className="border-0 shadow-lg">
+              <CardContent className="p-6 space-y-4">
+                <div className="flex items-center gap-1 text-yellow-500">
+                  <Icon name="Star" size={20} fill="currentColor" />
+                  <Icon name="Star" size={20} fill="currentColor" />
+                  <Icon name="Star" size={20} fill="currentColor" />
+                  <Icon name="Star" size={20} fill="currentColor" />
+                  <Icon name="Star" size={20} fill="currentColor" />
+                </div>
+                <p className="text-muted-foreground">
+                  "Заказывали бассейн для дачи. Качество на высоте! Установили быстро, работает отлично уже второй сезон. Очень довольны, рекомендуем!"
+                </p>
+                <div className="font-semibold">Алексей М.</div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-0 shadow-lg">
+              <CardContent className="p-6 space-y-4">
+                <div className="flex items-center gap-1 text-yellow-500">
+                  <Icon name="Star" size={20} fill="currentColor" />
+                  <Icon name="Star" size={20} fill="currentColor" />
+                  <Icon name="Star" size={20} fill="currentColor" />
+                  <Icon name="Star" size={20} fill="currentColor" />
+                  <Icon name="Star" size={20} fill="currentColor" />
+                </div>
+                <p className="text-muted-foreground">
+                  "Купель для бани - просто восторг! Материал качественный, держит температуру отлично. Спасибо за профессиональную работу и быструю доставку."
+                </p>
+                <div className="font-semibold">Ольга С.</div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-0 shadow-lg">
+              <CardContent className="p-6 space-y-4">
+                <div className="flex items-center gap-1 text-yellow-500">
+                  <Icon name="Star" size={20} fill="currentColor" />
+                  <Icon name="Star" size={20} fill="currentColor" />
+                  <Icon name="Star" size={20} fill="currentColor" />
+                  <Icon name="Star" size={20} fill="currentColor" />
+                  <Icon name="Star" size={20} fill="currentColor" />
+                </div>
+                <p className="text-muted-foreground">
+                  "Станцию биоочистки установили год назад. Работает безупречно, никаких проблем. Ребята - профессионалы своего дела. Цена адекватная."
+                </p>
+                <div className="font-semibold">Дмитрий К.</div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-0 shadow-lg">
+              <CardContent className="p-6 space-y-4">
+                <div className="flex items-center gap-1 text-yellow-500">
+                  <Icon name="Star" size={20} fill="currentColor" />
+                  <Icon name="Star" size={20} fill="currentColor" />
+                  <Icon name="Star" size={20} fill="currentColor" />
+                  <Icon name="Star" size={20} fill="currentColor" />
+                  <Icon name="Star" size={20} fill="currentColor" />
+                </div>
+                <p className="text-muted-foreground">
+                  "Лодка из ПНД - отличное приобретение для рыбалки. Легкая, прочная, удобная. Уже третий год пользуемся - как новая!"
+                </p>
+                <div className="font-semibold">Сергей В.</div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-0 shadow-lg">
+              <CardContent className="p-6 space-y-4">
+                <div className="flex items-center gap-1 text-yellow-500">
+                  <Icon name="Star" size={20} fill="currentColor" />
+                  <Icon name="Star" size={20} fill="currentColor" />
+                  <Icon name="Star" size={20} fill="currentColor" />
+                  <Icon name="Star" size={20} fill="currentColor" />
+                  <Icon name="Star" size={20} fill="currentColor" />
+                </div>
+                <p className="text-muted-foreground">
+                  "Погреб установили под ключ. Все четко, быстро, качественно. Овощи хранятся отлично, температура стабильная. Очень благодарны!"
+                </p>
+                <div className="font-semibold">Татьяна П.</div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-0 shadow-lg">
+              <CardContent className="p-6 space-y-4">
+                <div className="flex items-center gap-1 text-yellow-500">
+                  <Icon name="Star" size={20} fill="currentColor" />
+                  <Icon name="Star" size={20} fill="currentColor" />
+                  <Icon name="Star" size={20} fill="currentColor" />
+                  <Icon name="Star" size={20} fill="currentColor" />
+                  <Icon name="Star" size={20} fill="currentColor" />
+                </div>
+                <p className="text-muted-foreground">
+                  "Делали изделие по нашим чертежам - все выполнили точно в срок и с отличным качеством. Индивидуальный подход, профессионализм. Рекомендую!"
+                </p>
+                <div className="font-semibold">Игорь Л.</div>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacts" className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <h2 className="text-4xl font-bold mb-12 text-center">Контакты</h2>
           
