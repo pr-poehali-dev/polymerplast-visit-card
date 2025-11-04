@@ -236,15 +236,26 @@ export default function Index() {
                 </div>
               </div>
               
-              <div className="mt-8">
+              <div className="mt-8 flex flex-col sm:flex-row gap-4">
                 <a
                   href="https://wa.me/79115985155"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-3 bg-[#25D366] hover:bg-[#20BA5A] text-white px-6 py-3 rounded-lg font-medium transition-colors"
+                  className="inline-flex items-center justify-center gap-3 bg-[#25D366] hover:bg-[#20BA5A] text-white px-6 py-3 rounded-lg font-medium transition-colors"
                 >
                   <Icon name="MessageCircle" size={24} />
                   Написать в WhatsApp
+                </a>
+                <a
+                  href="https://vk.com/polimerplast29"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-3 bg-[#0077FF] hover:bg-[#0066DD] text-white px-6 py-3 rounded-lg font-medium transition-colors"
+                >
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm3.29 14.78c-.2.35-.81.44-1.16.35-.51-.13-1.05-.46-1.56-.81-.31-.21-.62-.42-.95-.59-.52-.26-1.03-.12-1.3.38-.17.32-.29.67-.43 1.01-.14.34-.36.59-.74.59-.49 0-.91-.26-1.21-.63-.62-.77-1.07-1.64-1.45-2.55-.37-.88-.64-1.79-.85-2.72-.12-.52.04-.95.52-1.15.41-.17.87-.21 1.32-.19.52.02.95.31 1.15.78.23.55.41 1.12.6 1.69.11.33.22.66.36.98.15.34.42.51.78.47.31-.03.57-.21.76-.46.39-.51.69-1.08.94-1.68.15-.37.44-.6.84-.6.46 0 .91.07 1.35.18.47.12.76.48.76.98 0 .87-.36 1.64-.86 2.33-.19.26-.41.5-.63.73-.39.41-.41.78-.05 1.19.17.2.36.37.56.54.61.52 1.26 1 1.97 1.36.32.16.5.41.5.77 0 .28-.13.52-.35.67z"/>
+                  </svg>
+                  ВКонтакте
                 </a>
               </div>
             </div>
