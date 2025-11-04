@@ -235,6 +235,18 @@ export default function Index() {
                   </div>
                 </div>
               </div>
+              
+              <div className="mt-8">
+                <a
+                  href="https://wa.me/79115985155"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-3 bg-[#25D366] hover:bg-[#20BA5A] text-white px-6 py-3 rounded-lg font-medium transition-colors"
+                >
+                  <Icon name="MessageCircle" size={24} />
+                  Написать в WhatsApp
+                </a>
+              </div>
             </div>
 
             <Card className="border-0 shadow-lg">
