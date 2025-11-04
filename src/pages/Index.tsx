@@ -228,14 +228,6 @@ export default function Index() {
                 </div>
                 
                 <div className="flex items-start gap-4">
-                  <Icon name="Mail" className="text-primary mt-1" size={20} />
-                  <div>
-                    <h3 className="font-semibold mb-1">Email</h3>
-                    <p className="text-muted-foreground">info@polimerplast29.ru</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start gap-4">
                   <Icon name="Clock" className="text-primary mt-1" size={20} />
                   <div>
                     <h3 className="font-semibold mb-1">Режим работы</h3>
