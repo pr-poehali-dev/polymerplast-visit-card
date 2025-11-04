@@ -48,7 +48,7 @@ export default function Index() {
       title: 'Бассейны',
       description: 'Полимерные композитные бассейны под ключ',
       specs: ['Объем от 5 до 50 м³', 'Быстрая установка', 'Долговечность 30+ лет'],
-      image: 'https://cdn.poehali.dev/projects/50cf6cb2-13c1-4e01-8ce6-26d660ea2525/files/bd3e6643-e0da-4ee3-b1d9-a5348c1d4d6b.jpg'
+      image: 'https://cdn.poehali.dev/files/462a3937-c0da-499c-bebc-609786d80dd0.jpg'
     },
     {
       title: 'Купели',
