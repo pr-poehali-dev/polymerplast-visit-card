@@ -213,7 +213,7 @@ export default function Index() {
                   <Icon name="MapPin" className="text-primary mt-1" size={20} />
                   <div>
                     <h3 className="font-semibold mb-1">Адрес</h3>
-                    <p className="text-muted-foreground">г. Архангельск, ул. Производственная, 29</p>
+                    <p className="text-muted-foreground">Архангельская область, г. Котлас, ул. 7-го съезда Советов, 101 к2</p>
                   </div>
                 </div>
                 
@@ -221,7 +221,7 @@ export default function Index() {
                   <Icon name="Phone" className="text-primary mt-1" size={20} />
                   <div>
                     <h3 className="font-semibold mb-1">Телефон</h3>
-                    <p className="text-muted-foreground">+7 (900) 000-00-00</p>
+                    <p className="text-muted-foreground">+7 (911) 598-51-55</p>
                   </div>
                 </div>
                 
@@ -237,7 +237,7 @@ export default function Index() {
                   <Icon name="Clock" className="text-primary mt-1" size={20} />
                   <div>
                     <h3 className="font-semibold mb-1">Режим работы</h3>
-                    <p className="text-muted-foreground">Пн-Пт: 9:00 - 18:00</p>
+                    <p className="text-muted-foreground">Пн-Пт: 9:00 - 18:00<br />Сб: 9:00 - 16:00</p>
                   </div>
                 </div>
               </div>
