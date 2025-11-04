@@ -53,7 +53,13 @@ export default function Index() {
     <div className="min-h-screen bg-background">
       <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm z-50 border-b border-border">
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
-          <h1 className="text-xl font-semibold">ПолимерПласт29</h1>
+          <div className="flex items-center gap-3">
+            <img 
+              src="https://cdn.poehali.dev/files/c84184f2-0def-4be5-bcc8-c9c8b102ee53.png" 
+              alt="ПолимерПласт29" 
+              className="h-10"
+            />
+          </div>
           
           <div className="hidden md:flex gap-8">
             {[
