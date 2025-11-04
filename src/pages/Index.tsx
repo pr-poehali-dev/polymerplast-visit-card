@@ -221,7 +221,9 @@ export default function Index() {
                   <Icon name="Phone" className="text-primary mt-1" size={20} />
                   <div>
                     <h3 className="font-semibold mb-1">Телефон</h3>
-                    <p className="text-muted-foreground">+7 (911) 598-51-55</p>
+                    <a href="tel:+79115985155" className="text-muted-foreground hover:text-primary transition-colors">
+                      +7 (911) 598-51-55
+                    </a>
                   </div>
                 </div>
                 
