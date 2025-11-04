@@ -42,7 +42,7 @@ export default function Index() {
       title: 'Станции биологической очистки',
       description: 'Современные системы очистки сточных вод',
       specs: ['Производительность 3-25 м³/сутки', 'Степень очистки до 98%', 'Гарантия 10 лет'],
-      image: 'https://cdn.poehali.dev/projects/50cf6cb2-13c1-4e01-8ce6-26d660ea2525/files/2d191e0c-8282-4d25-96c6-efae5ebd2374.jpg'
+      image: 'https://cdn.poehali.dev/files/771b160a-f06f-45ac-abb7-c03c229170ba.jpg'
     },
     {
       title: 'Бассейны',
